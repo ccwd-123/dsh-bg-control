@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Generated package and local build output
+dist/
+*.tgz
+
+# Local run artifacts
+logs/
+output/
+result_*.json
+result_*.sha256
+
+# Machine-specific probe evidence (contains live PIDs/window titles)
+verification/*-results.json
+
+# Local environment and editor files
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
